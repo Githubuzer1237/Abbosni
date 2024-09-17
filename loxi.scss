@@ -1,0 +1,114 @@
+.header {
+
+   // .header__wrapper
+
+   &__wrapper {
+   }
+
+   // .header__logo
+
+   &__logo {
+   }
+
+   // .header__menu
+
+   &__menu {
+   }
+
+   // .header__btn
+
+   &__btn {
+   }
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+.hero {
+
+   // .hero__wrapper
+
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 5px;
+
+   }
+
+   // .hero__box
+
+   &__box {
+      background-color: blue;
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      border-radius: 15px;
+      h1 {
+         color: #fff;
+         font-size: 35px;
+      }
+   }
+
+   // .hero__btns
+
+   &__btns {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      max-width: 450px;
+      width: 100%;
+      gap: 4px;
+      button {
+         border-radius: 30px;
+         padding: 7px;
+         border: none;
+         background-color: #fff;
+      }
+   }
+
+   // .hero__info
+
+   &__info {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOxwHFYsLrydDPTe8L8_AJxwHqr58wSi7hQ&s');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 10px;
+      h4 {
+         color: #fff;
+      }
+      p {
+         color: #fff;
+      }
+   }
+}
+#telegramForm {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 15px;
+   box-shadow: 0 0 10px 0 rgba(173, 216, 230, 0.452);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   max-width: 500px;
+   margin: 30px auto;
+   input, button {
+      padding: 20px;
+      border-radius: 10px;
+      background-color: transparent;
+   }
+}
